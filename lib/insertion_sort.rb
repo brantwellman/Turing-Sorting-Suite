@@ -1,5 +1,3 @@
-require 'pry'
-
 class InsertionSort
   def initialize
     @sorted = []
@@ -35,8 +33,8 @@ end
 
 # array = [2, 1, 2]
 # array = ["d", "b", "a", "c"]
-array = [2, -1, 1, 2, 3, 4, 5, 4]
+# array = [2, -1, 1, 2, 3, 4, 5, 4]
 # array = [2, 1, 5, 4, -3, 1]
 # array = (1..100).to_a.shuffle
-sorter = InsertionSort.new
-p sorter.sort(array)
+# sorter = InsertionSort.new
+# p sorter.sort(array)

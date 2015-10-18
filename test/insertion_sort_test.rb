@@ -64,6 +64,4 @@ class InsertionSortTest < Minitest::Test
 
     assert_equal [5, 1, 4], array
   end
-
-
 end

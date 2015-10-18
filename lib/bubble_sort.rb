@@ -47,54 +47,15 @@ class BubbleSort
           counter += 1
         end
       end
-      return array
-      # puts array.inspect
+      array
     end
   end
 end
 
 
-
 # # array = ["d", "b", "a", "c"]
 # array = [2, -1, 1, 2, 3, 4, 5, 4]
-array = [2, 1, 5, 4, -3]
-sorter = BubbleSort.new
-sorter.sort(array)
-
-
-
-
-
-# arr = [2, 1, 5, 4, -3]  # => [2, 1, 5, 4, -3]
-# arr = [2, -1, 3, 4, 5]
-# arr = ["d", "b", "a", "c"]
-#
-# counter = 0
-# if arr == []
-#   arr
-# elsif arr.size == 1
-#   arr
-# else
-#   until counter == arr.size - 1
-#     prev_index = 0
-#     curr_index = 1
-#     counter = 0
-#     until curr_index == arr.size
-#       previous = arr[prev_index]
-#       current = arr[curr_index]
-#       if current < previous
-#         arr[prev_index] = current
-#         arr[curr_index] = previous
-#         counter -= 1
-#       end
-#       prev_index += 1
-#       curr_index += 1
-#       counter += 1
-#     end
-#   end
-#   arr
-# end
-
-
-
-# Figure out -
+# array = [2, 1, 5, 4, -3]
+# array = (1..100).to_a.shuffle
+# sorter = BubbleSort.new
+# p sorter.sort(array)
