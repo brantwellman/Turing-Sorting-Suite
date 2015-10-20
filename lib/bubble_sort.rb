@@ -53,8 +53,8 @@ class BubbleSort
 end
 
 # array = ["d", "b", "a", "c"]
-# array = [2, -1, 1, 2, 3, 4, 5, 4]
+array = [2, -1, 1, 2, 3, 4, 5, 4]
 # array = [2, 1, 5, 4, -3]
 # array = (1..100).to_a.shuffle
-# sorter = BubbleSort.new
-# p sorter.sort(array)
+sorter = BubbleSort.new
+p sorter.sort(array)
